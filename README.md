@@ -4,7 +4,11 @@ This is a simple wrapper script to validate data packages in the command line. I
 
 ## Installation
 
-Run `make install`. A virtualenv with all necessary dependencies will be created in the project directory.
+The installation process requires `virtualenv` installed on your system, so that we can install dependencies locally without polluting the system-wide package directory. In Debian/Ubuntu, this is done quickly:
+
+    sudo aptitude install python-virtualenv
+
+Now, run `make install`. A virtualenv with all necessary dependencies will be created in the project directory.
 
 ## Usage
 
